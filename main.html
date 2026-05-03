@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="painel">
+
+        <div class="topo">
+            <div class="tittle">
+                <h1>WHO I COIN</h1>
+            </div>
+            <div class="moneybag">
+                <h1>Dinheiro: <span id="DINHEIRO">0</span></h1>
+            </div>
+        </div>
+
+        <div class="conteudo">
+
+            <div class="esquerda">
+
+                <div class="infos">
+                    <div class="StructureInfo">
+                        TUTORIAL
+                        <button id="B.TUTORIAL" class="PriceInfo">0$</button>
+                    </div>
+                </div>
+
+                <div id="I.TUTORIAL" class="ShowInfoBox oculto">
+                    <div class="ShowInfo">
+                        <p>Bem vindo ao WHO I COIN.</p>
+                        <p>
+                            Nesse jogo seu objetivo é acumular dinheiro comprando ativos na barra da direita,
+                            e usá-lo para adquirir informações sobre a minha vida.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div class="StructureInfo">
+                        SOBRE MIM
+                        <button id="B.INFO.1" class="PriceInfo">50$</button>
+                    </div>
+                </div>
+
+                <div id="I.INFO.1" class="ShowInfoBox oculto">
+                    <div class="ShowInfo">
+                        <p>
+                            Meu nome é Diego Francisco Curtis Junior.
+                        </p>
+                        <p>
+                            Tenho 17 anos. Nasci em Cascavel, mas me mudei ainda cedo para Palotina, onde moro
+                            atualmente. Estudo na Universidade Federal de Tecnologia do Paraná (UTFPR), em Toledo, e
+                            também trabalho há 6 meses como jovem aprendiz no posto de combustíveis da C.Vale.
+                        </p>
+                        <p>
+                            Desde muito novo, meu pai me apresentou ao meu primeiro jogo: Super Mario Bros, do NES.
+                            Lembro dele me mostrando onde ficavam os blocos secretos que davam vidas, e acredito que foi
+                            ali que nasceu minha paixão por videogames (como você já deve ter percebido ;P).
+                        </p>
+                        <p>
+                            Ao longo dos anos, esse interesse acabou se expandindo para a área da programação, como o
+                            desenvolvimento de sites, e também para o lado artístico, unindo criatividade e tecnologia.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div class="StructureInfo">
+                        HOBBIES
+                        <button id="B.INFO.2" class="PriceInfo">500$</button>
+                    </div>
+                </div>
+
+                <div id="I.INFO.2" class="ShowInfoBox oculto">
+                    <div class="ShowInfo">
+                        <p>
+                        </p>
+                        <p>
+                            Eu sempre gostei de jogar, tanto videogames quanto jogos de tabuleiro.
+                        </p>
+                        <p>
+                            Falando dos jogos digitais, meu gênero favorito é o Metroidvania, pois ele mistura vários
+                            elementos que eu gosto: exploração não linear, história envolvente e sistemas de progressão
+                            com upgrades. Tenho uma forte preferência por jogos em 2D, especialmente com estilo pixel
+                            art. Carrego comigo títulos marcantes como Castlevania: Symphony of the Night, Hollow
+                            Knight, Super Metroid e Rain World.
+                        </p>
+                        <p>
+                            Quanto aos jogos de tabuleiro, esse interesse amadureceu ao longo do tempo e evoluiu para o
+                            RPG de mesa. Criar histórias, desenvolver meus próprios mundos e ver outras pessoas
+                            vivenciando essas narrativas é algo muito gratificante. Além disso, participar como jogador
+                            e viver aventuras com amigos também é sempre uma experiência divertida.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div class="StructureInfo">
+                        HOBBIES 2
+                        <button id="B.INFO.3" class="PriceInfo">650$</button>
+                    </div>
+                </div>
+
+                <div id="I.INFO.3" class="ShowInfoBox oculto">
+                    <div class="ShowInfo">
+                        <p>
+                        </p>
+                        <p>
+                            Eu tambem gosto de praticar esportes
+                        </p>
+                        <p>
+                            Principalmente nos últimos anos, comecei a jogar basquete e vôlei, em parte por conta do
+                            crescimento acelerado que tive. Honestamente, não me considero muito bom — jogo mais pela
+                            diversão e pela experiência.
+                        </p>
+                        <p>
+                            Além disso, tenho um grande fascínio por salto vertical. Atualmente, tenho 1,85 m de altura,
+                            com um alcance de 2,46 m parado e chegando a aproximadamente 3,08 m ao pular.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div class="StructureInfo">
+                        RUBI
+                        <button id="B.INFO.4" class="PriceInfo">1500$</button>
+                    </div>
+                </div>
+
+                <div id="I.INFO.4" class="ShowInfoBox oculto">
+                    <div class="ShowInfo">
+                        <p>
+                        </p>
+                        <p>
+                            Essa é a minha gatinha a Rubi
+                        </p>
+                        <p>
+                            Ela faz aniverario dia 3 de outubro e atualmente tem 7 meses de idade. E é invejavelmente
+                            fotogénica.
+                        </p>
+
+                        <div class="ImgPack">
+                            <figure>
+                                <img src="/Rubi/mes1.jpeg" alt="Rubi 1 mês">
+                                <figcaption>1 mes</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/Rubi/mes2.jpeg" alt="Rubi 2 meses">
+                                <figcaption>2 mes</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/Rubi/mes3.jpeg" alt="Rubi 3 meses">
+                                <figcaption>3 meses</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/Rubi/mes5.jpeg" alt="Rubi 4 meses">
+                                <figcaption>4 meses</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/Rubi/mes6.jpeg" alt="Rubi 5 meses">
+                                <figcaption>5 meses</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/Rubi/mes7.jpeg" alt="Rubi 6 meses">
+                                <figcaption>6 meses</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div class="StructureInfo">
+                        Cores favoritas:
+                        <button id="B.INFO.5" class="PriceInfo">3500$</button>
+                    </div>
+                </div>
+
+                <div id="I.INFO.5" class="ShowInfoBox oculto">
+                    <div class="ShowInfo">
+                        <ul>
+                            <li>Preto</li>
+                            <li>Roxo</li>
+                            <li>Azul</li>
+                            <li>Vermelho</li>
+                            <li>Branco</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="direita">
+                <div class="botões">
+
+                    <button class="MajorStructureButton" id="pratos">
+                        <div class="ButtonFirstText">
+                            <div class="nome">LAVAR PRATOS</div>
+                            <progress id="barra" value="0" max="100"></progress>
+                        </div>
+                        <div class="ButtonFinalText">+ 10$</div>
+                    </button>
+
+                    <button class="StructureButton" id="Trigo">
+                        <div class="ButtonFirstText">
+                            <div class="nome">TRIGO</div>
+                            <div class="preco"><span id="PRECO.TRIGO">0</span> $</div>
+                        </div>
+                        <span class="ButtonFinalText" id="QUANT.TRIGO">0</span>
+                    </button>
+
+                    <button class="StructureButton" id="Galinhas">
+                        <div class="ButtonFirstText">
+                            <div class="nome">GALINHAS</div>
+                            <div class="preco"><span id="PRECO.GALINHAS">0</span> $</div>
+                        </div>
+                        <span class="ButtonFinalText" id="QUANT.GALINHAS">0</span>
+                    </button>
+
+                    <button class="StructureButton" id="Vacas">
+                        <div class="ButtonFirstText">
+                            <div class="nome">VACAS</div>
+                            <div class="preco"><span id="PRECO.VACAS">0</span> $</div>
+                        </div>
+                        <span class="ButtonFinalText" id="QUANT.VACAS">0</span>
+                    </button>
+
+                    <button class="StructureButton" id="Porcos">
+                        <div class="ButtonFirstText">
+                            <div class="nome">PORCOS</div>
+                            <div class="preco"><span id="PRECO.PORCOS">0</span> $</div>
+                        </div>
+                        <div class="ButtonFinalText" id="QUANT.PORCOS">0</div>
+                    </button>
+
+                    <button class="MajorStructureButton" id="pratos2">
+                        <div class="ButtonFirstText">
+                            <div class="nome">MEGA-SENA</div>
+                            <progress id="barra2" value="0" max="100"></progress>
+                        </div>
+                        <div class="ButtonFinalText">+ 999$</div>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="ContactBox">
+            <div class="MyInfo">
+                Este site foi desenvolvido por Diego Francisco Curtis Junior.
+            </div>
+
+            <div class="ContactInfo">
+                Meus contatos:
+
+                <a href="https://instagram.com/diego_fcjr" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://wa.me/5544998599094" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a href="mailto:diegofranciscocurtis@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
